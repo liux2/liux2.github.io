@@ -46,7 +46,7 @@ author:
   name: Xingbang Liu
   email: "liux2@allegheny.edu"
   facebook: yourname  # eg. daattali
-  github: yourname    # eg. daattali
+  github: liux2    # eg. daattali
   twitter: yourname   # eg. daattali
   reddit: yourname    # eg. daattali
   google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
@@ -75,7 +75,7 @@ footer-links-active:
   instagram: false
   youtube: false
   spotify: false
-  telephone: false
+  telephone: true
 
 # Select which share links to show in posts
 share-links-active:
