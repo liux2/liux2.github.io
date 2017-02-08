@@ -11,14 +11,12 @@ Here is the original website: https://github.com/daattali/beautiful-jekyll
 
 ## Prerequisites
 
-- You need to have a GitHub account. If you don't have one, [sign up here](https://github.com/join) - it takes one minute. This is where your website will live - if you sign up with username `johnsmith` then your website will be `http://johnsmith.github.io`.  
-- It would be helpful to understand what Markdown is and how to write it. Markdown is just a way to take a piece of text and format it to look a little nicer.  For example, this whole instruction set that you're reading is written in markdown - it's just text with some words being bold/larger/italicized/etc. I recommend taking 5 minutes to learn markdown [with this amazingly easy yet useful tutorial](http://markdowntutorial.com/).
+- First you have to have a Github account. Here is the [portal](https://github.com/join).
+- If you wnat to write your website offline, you have to save your ssh-keygen to Github which can be found by using terminal. 
 
 ## Build your website in 3 steps
-
-Getting started is *literally* as easy as 1-2-3 :smile:   
-Scroll down to see the steps involved, but here is a 40-second video just as a reference as you work through the steps.
-
+ 
+Here is a short gif about how it works:
 ![Installation steps](img/install-steps.gif)
 
 ### 1. Fork this repository
