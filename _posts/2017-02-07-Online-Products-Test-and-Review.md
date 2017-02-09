@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Online Products Test and Review
-subtitle: ##How to be Successful in Online Shopping
-          ###by Xingbang Liu
+subtitle: How to be Successful in Online Shopping by Xingbang Liu
 bigimg: /img/OnlineShopping.jpg
 ---
 I love online shopping.
