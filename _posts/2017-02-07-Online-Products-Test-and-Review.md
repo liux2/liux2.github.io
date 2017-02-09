@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <h1>Online Products Test and Review: How to be Successful in Online Shopping</h1>
+title: |Online Products Test and Review: How to be Successful in Online Shopping
 subtitle: by Xingbang Liu
 bigimg: /img/OnlineShopping.jpg
 
