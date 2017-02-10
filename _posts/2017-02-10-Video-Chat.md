@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Video Chet: We are More Connected Than ever Before'
+title: 'Video Chat: We are More Connected Than ever Before'
 subtitle: by Xingbang Liu
 bigimg: /img/videoChat.jpg
 ---
