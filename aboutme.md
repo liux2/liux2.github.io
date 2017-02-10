@@ -12,7 +12,7 @@ My name is Xingbang Liu. I have the following qualities:
 
 What else do you need?
 
-### my history
+### My History
 
 My name is Xingbang, but you can call me Sheldon. It is easier for you to remember and pronounce. This article is mainly an introduction about me and how I become interested in software.
 
