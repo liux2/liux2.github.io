@@ -14,6 +14,8 @@ What else do you need?
 
 ### My History
 
+__TL;DR A short introduction about how I got addicted to software__
+
 My name is Xingbang, but you can call me Sheldon. It is easier for you to remember and pronounce. This article is mainly an introduction about me and how I become interested in software.
 
 I'm from China. When I was a little kid, I didn't expect myself to have any connection to computers and software. The reason is, my father thought I could get addicted to computer games and he also thought I could have some bad influence from the internet, such as become violent and impolite. So, I didn't have a chance to get to know computers. However, everything has changed since junior high school.
