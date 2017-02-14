@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 'Video Chat: We are More Connected Than ever Before'
+title: 'Video Chat: We are More Connected Than Ever Before'
 subtitle: by Xingbang Liu
 bigimg: /img/videoChat.jpg
 ---
-Some people say that people are more and more “isolated” nowadays. Maybe the reason is we tend to work and study far away from home, but more people believe that technology is the actual reason to blame. With the increasing popularity of smartphones and the social apps installed, people are more and more addicted to a virtual society. That maybe right, but I would say technology, for example, video chat, actually make us more connected than ever before.
+Some people say that individuals are more and more “isolated” nowadays. Maybe the reason is we tend to work and study far away from home &mdash; but more people believe that technology is the actual reason to blame. With the increasing popularity of smartphones and the social apps that are installed on them, people are more and more addicted to a virtual society. That maybe right, but I would say technology &mdash; for example, video chat &mdash; actually makes us more connected than ever before.
 
 You might have the experiences that skype your friends or your families at some case. However, for people who are “old” enough, do you still remember the time before 2000? We didn’t have such a popular technology to convenient us. Back to that ancient time, if people want to talk to their families from far away, the choices were telephone and emails. If managers want to have a meeting with others, they might have to travel across the country, or even ocean. That was very inconvenient for us. We had to pay a lot to get our telephones connected, it was much expensive if it was an international conversation. For managers, after a long-time travel, they would lose all the energies they had. I had the similar experience, too.
 
