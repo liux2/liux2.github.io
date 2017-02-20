@@ -12,17 +12,17 @@ As e-commerce and virtual product being popular, people tend to link their credi
 
 ![Status of Android users](/img/status.PNG)
 
-Most of the people would connect their credit card to their Google Play, so that they could purchase apps on their smart phone easily.
+Most of the people would connect their credit card to their Google Play, so that they could purchase apps on their smart phone easily. However, there might be potential safety problems of linking your card to Google product. One of the ways that hackers use to get your card information is by publishing malwares. Sometimes, you might received strange emails in your Gmail box which contain some virus or strange links. Once you opened the email or clicked the link, your card information along with other personal information would be compromised. There also might be a huge chance that the virus or malware would be hide in some webpages. 
 
 Issues and examples:
 1. Linked credit card
 2. Personal info could be used in scam
 3. back door for Gov. (Snowdon)
 
-Conclusion
-
 References:
 
 "Operating system market share." Operating system market share. N.p., n.d. Web. 20 Feb. 2017.
+
+"Krebs on Security." Krebs on Security RSS. N.p., n.d. Web. 20 Feb. 2017.
 
 <a title="Santiago" href="https://flickr.com/photos/katylevinson/6866188762">Santiago</a> flickr photo by <a href="https://flickr.com/people/katylevinson">Katy Levinson</a> shared under a <a href="https://creativecommons.org/licenses/by-sa/2.0/">Creative Commons (BY-SA) license</a>
