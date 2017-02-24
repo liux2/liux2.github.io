@@ -18,6 +18,7 @@ Now, lots of people are using Google+ service, Google Drive, Google Contact, etc
 
 ![Status of Android users](/img/data.PNG)
 
+From the picture, we can know that hackers could also use Email to open the door of your computer, which is the same as the first example. As Daily mail has reported in May 2016, a hacker, whose name is Alex Holden, stole 272.3 million Google, Yahoo, Microsoft and Mail.ru account information including password, and he traded them in Russia. That information could be used in access their Email or other similar accounts. However, there might be a huge chance that the virus or malware would be hidden in some web pages. Despite some tricky websites, which could redirect the user to dangerous websites or install malware in user’s computer, where we need to find some information, even google.com has some “partially dangerous” which was said by Google himself. As theguardian reported, in Google’s “Safe Browsing” report, some pages could install malware on users’ computer, and some pages would redirect the website to another dangerous website. For example, websites, such as maeaflordapele.com, valeimaginar.blogspot.com, would send users to dangerous locations, such as 7b726aeb-a-62cb3a1a-s-sites.googlegroups.com, 40d0dfd9-a-62cb3a1a-s-sites.googlegroups.com. 
 
 Issues and examples:
 1. Linked credit card
@@ -27,6 +28,8 @@ Issues and examples:
 References:
 
 Commission, Australian Competition and Consumer. "Identity theft." Australian Competition and Consumer Commission. N.p., 22 Dec. 2015. Web. 24 Feb. 2017.
+
+Dailymail.com, Ellie Zolfagharifard For. "Has YOUR account been hacked? Hundreds of millions of passwords stolen from Google and Yahoo users in major security breach." Daily Mail Online. Associated Newspapers, 06 May 2016. Web. 24 Feb. 2017.
 
 Dredge, Stuart. "Google.com is a 'partially dangerous' website – according to Google." The Guardian. Guardian News and Media, 20 Apr. 2016. Web. 20 Feb. 2017.
 
