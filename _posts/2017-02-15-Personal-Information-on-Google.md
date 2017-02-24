@@ -6,7 +6,7 @@ bigimg: /img/Hacker.jpg
 ---
 **TL;DR Even though The Google Empire has convents us a lot, but is it safe to keep all our personal information in Google?**
 
-As everyone has noticed, Google is everywhere now. People use Google to receive news, search what they want to know, or to keep their agenda up-to-date. Google's product is really everywhere, he is like a huge empire trying to increase its boundaries. What Google trying to do is create a closed and concise environment where people can finish most of the daily routine by using that environment. Now you may think that this is really convenient which is a big truth. However, by using google, most of our personal information is up to their in Google's server. What if hackers break the door, or Google just left a back door to some Government or none government organization? That would be a huge problem to us.
+As everyone has noticed, Google is everywhere now. People use Google to receive news, search what they want to know, or to keep their agenda up-to-date. Google's product is really everywhere, he is like a huge empire trying to increase its boundaries. What Google trying to do is create a closed and concise environment where people can finish most of the daily routine by using that environment. Now you may think that this is really convenient, which is a big truth. However, by using google, most of our personal information is up to their in Google's server. What if hackers break the door, or Google just left a back door to some Government or none government organization? That would be a huge problem to us.
 
 As e-commerce and the virtual product being popular, people tend to link their credit card to online services. Until now, the most popular smartphone system is Android which is a Google company product. Compared to other smartphone systems, Android users are about 63.99%. As the picture shows:
 
@@ -18,12 +18,11 @@ Now, lots of people are using Google+ service, Google Drive, Google Contact, etc
 
 ![Status of Android users](/img/data.PNG)
 
-From the picture, we can know that hackers could also use Email to open the door of your computer, which is the same as the first example. As Daily mail has reported in May 2016, a hacker, whose name is Alex Holden, stole 272.3 million Google, Yahoo, Microsoft and Mail.ru account information including password, and he traded them in Russia. That information could be used in access their Email or other similar accounts. However, there might be a huge chance that the virus or malware would be hidden in some web pages. Despite some tricky websites, which could redirect the user to dangerous websites or install malware in user’s computer, where we need to find some information, even google.com has some “partially dangerous” which was said by Google himself. As theguardian reported, in Google’s “Safe Browsing” report, some pages could install malware on users’ computer, and some pages would redirect the website to another dangerous website. For example, websites, such as maeaflordapele.com, valeimaginar.blogspot.com, would send users to dangerous locations, such as 7b726aeb-a-62cb3a1a-s-sites.googlegroups.com, 40d0dfd9-a-62cb3a1a-s-sites.googlegroups.com. 
+From the picture, we can know that hackers could also use Email to open the door of your computer, which is the same as the first example. As Daily mail has reported in May 2016, a hacker, whose name is Alex Holden, stole 272.3 million Google, Yahoo, Microsoft and Mail.ru account information including password, and he traded them in Russia. That information could be used in access their Email or other similar accounts. However, there might be a huge chance that the virus or malware would be hidden in some web pages. Despite some tricky websites, which could redirect the user to dangerous websites or install malware in user’s computer, where we need to find some information, even google.com has some “partially dangerous” which was said by Google himself. As _theguardian_ reported, in Google’s “Safe Browsing” report, some pages could install malware on users’ computer, and some pages would redirect the website to another dangerous website. For example, websites, such as _maeaflordapele.com, valeimaginar.blogspot.com_, would send users to dangerous locations, such as _7b726aeb-a-62cb3a1a-s-sites.googlegroups.com, 40d0dfd9-a-62cb3a1a-s-sites.googlegroups.com_.
 
-Issues and examples:
-1. Linked credit card
-2. Personal info could be used in scam
-3. back door for Gov. (Snowdon)
+People would question a person if he thinks that the government has the access to technology companies, and we are all spied by the government. People would think that person have a whole brain of conspiracy theories. However, after Snowden reveals the truth that the government can access the data in technology companies, and we are all nicked in front of the government, people would not think that “conspiracy theory” is a fantasy. People felt uncomfortable with what the government and technology companies did. This case is not about we are not safe anymore, but rather about our privacy, and the ability that technology companies keep their agreement that all the users signed before they started to use the service.
+
+As Google keep dominate the big environment, we enjoyed a lot of conveniences. At the same time, we also found some issues, for example, hackers and backdoors, which can put users in unfavorable conditions. It doesn’t mean we must get rid of Google, Google is improving at the same time. Users just have to be smart about what they would interact with Google.
 
 References:
 
@@ -32,6 +31,8 @@ Commission, Australian Competition and Consumer. "Identity theft." Australian Co
 Dailymail.com, Ellie Zolfagharifard For. "Has YOUR account been hacked? Hundreds of millions of passwords stolen from Google and Yahoo users in major security breach." Daily Mail Online. Associated Newspapers, 06 May 2016. Web. 24 Feb. 2017.
 
 Dredge, Stuart. "Google.com is a 'partially dangerous' website – according to Google." The Guardian. Guardian News and Media, 20 Apr. 2016. Web. 20 Feb. 2017.
+
+"Edward Snowden." Biography.com. A&E Networks Television, 22 Nov. 2016. Web. 24 Feb. 2017.
 
 "Krebs on Security." Krebs on Security RSS. N.p., n.d. Web. 20 Feb. 2017.
 
