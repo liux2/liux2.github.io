@@ -18,7 +18,7 @@ __TL;DR A short introduction about how I got addicted to software__
 
 My name is Xingbang, but you can call me Sheldon. It is easier for you to remember and pronounce. This article is mainly an introduction about me and how I became interested in software.
 
-I'm from China. When I was a little kid, I didn't expect myself to have any connection to computers and software. The reason is, my father thought I could get addicted to computer games and he also thought I could have some bad influence from the Internet, such as turn violent and impolite. So, I didn't have a chance to get to know computers. However, everything has changed since Junior High School.
+I'm from China. When I was a little kid, I didn't expect myself to have any connection to computers and software. The reason is, my father thought I could get addicted to computer games and he also thought I could have some bad influence from the Internet, such as becoming violent and impolite. So, I didn't have a chance to get to know computers. However, everything has changed since Junior High School.
 
 I received my first electronic gift when I was in junior high school. It was an HTC HD2 smart phone. From this gift, I had a basic impression of different systems. Due to the strong capability of this smart phone, I have installed Windows mobile, Android and Windows phone in this smart phone. From this experience, I fell in love with computers. After gaining access to the Internet and electronic devices, I learned more and more information about software, computers, and systems. With the help of my laptop, I have practiced a lot.
 
