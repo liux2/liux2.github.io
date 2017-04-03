@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Paid or Free : General Ideas of Piracy'
+title: 'Paid or Free : Ideas of Piracy on Different Income Group'
 subtitle: by Xingbang Liu
 bigimg: /img/Piracy.jpg
 ---
