@@ -11,7 +11,7 @@ bigimg: /img/ted.jpg
 [![Presentation one][2]][1]
 
 [1]: http://cdn.rawgit.com/liux2/fs102Spring2017-presentation01-liux2/master/videoChat_2017.html
-[2]: /img/p1.PNG (Presentation one)
+[2]: (/img/p1.PNG) (Presentation one)
 
 [My First Conversation about Video Chat](http://cdn.rawgit.com/liux2/fs102Spring2017-presentation01-liux2/master/videoChat_2017.html) &mdash; 3/8/2017 &mdash; [The raw Github page](https://github.com/liux2/fs102Spring2017-presentation01-liux2)
 
