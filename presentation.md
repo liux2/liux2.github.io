@@ -7,7 +7,6 @@ bigimg: /img/ted.jpg
 
 # Presentation List
 
-![Presentation 1](/img/p1.PNG "Presentation 1")
 
 [![Presentation 1][2]][1]
 
