@@ -45,7 +45,15 @@ The first person I have interviewed was Zhangzi Yang, a sophomore in Allegheny C
 10. Yes, I would try it.
 11. I can save money from that. In other cases, for example, if the video doesn't has any subtitle, I could use pirate edition to add a subtitle in it. Also, it the video has restrictions in my area, I could use a pirate edition.
 
-The second person I have interviewed was ________, 
+The second person I have interviewed was Tamara, who is the TA in Allegheny College for 2016-2017. Here is a record of her answers:
+
+1. My income was about 35 dollars per month in average, which is 420 dollars per month in average.
+2. Yes, I am.
+3. It depend on the price, for example, I would pay for Netflix, because it was only 8 dollars per month. If the price is higher than that, I wouldn't pay for it.
+4. Yes.
+5. I would say most of them don't earn a lot.
+6. It is bad for singers who are not famous, because famous people would earn money anyways. I mean, piracy isn't that bad because people would usually download famous songs or movies.
+7. If I am the producer, I wouldn't like it, because it would hurt my benefits. 
 
 <a href="https://www.statista.com/chart/5164/use-of-unlicensed-software/" title="Infographic: The Cost of Software Piracy | Statista"><img src="https://infographic.statista.com/normal/chartoftheday_5164_use_of_unlicensed_software_n.jpg" alt="Infographic: The Cost of Software Piracy | Statista" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;"/></a> You will find more statistics at <a href="https://www.statista.com/">Statista</a>
 
