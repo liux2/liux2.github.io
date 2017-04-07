@@ -49,9 +49,9 @@ In next section, I asked them the following questions to get their reaction of t
 * Tamara: Yes
 11.	If you would, what would be your motivation?
 * Zhangzi Yang: I can save money from this. In other cases, for example, if the video doesn't have any subtitles, I could use pirate edition to add subtitles. Also, if the video has restrictions in my area, I could use a pirated edition.
-* Tamara: I can access more resources without paying, and I would gain more education without being richer. 
+* Tamara: I can access more resources without paying, and I would gain more education without being richer.
 
+Based on this survey, I have some findings. My interviewees have different income per year, Ziyang has more salary than Tamara, and Ziyang is more willing to pay for copyright products. However, both of them would try pirate if it is legal under some circumstances because pirate can save money, and pirated edition have worse quality. I agree with them. Even though high income makes copyright products affordable, it is always good to save some money. When I asked about their opinion about the income of music producers, they all agreed that pirate is bad for not famous producers. Particularly, Tamara pointed that high price could be the barrier between people and better education.
 
-<a href="https://www.statista.com/chart/5164/use-of-unlicensed-software/" title="Infographic: The Cost of Software Piracy | Statista"><img src="https://infographic.statista.com/normal/chartoftheday_5164_use_of_unlicensed_software_n.jpg" alt="Infographic: The Cost of Software Piracy | Statista" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;"/></a> You will find more statistics at <a href="https://www.statista.com/">Statista</a>
 
 <a title="sharing is caring" href="https://flickr.com/photos/psit/3709583982">sharing is caring</a> flickr photo by <a href="https://flickr.com/people/psit">· · · — — — · · ·</a> shared under a <a href="https://creativecommons.org/licenses/by-nc/2.0/">Creative Commons (BY-NC) license</a>
