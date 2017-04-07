@@ -6,7 +6,13 @@ bigimg: /img/Piracy.jpg
 ---
 **TL;DR Let's hear some public opinion on Piracy**
 
-In a world where people enjoy the convenience of Internet like today, products like music, software, books are all over the internet. However, while we enjoy these products, unlicensed products are eating up the market share of the original product due to various reasons, we won't talk about now. Here we will mainly discuss people's opinion of digital piracy, which is "the practice of illegally copying and selling digital music, video, computer software, etc." according to [Cambridge Dictionary](http://dictionary.cambridge.org/us/dictionary/english/digital-piracy).
+In a world where people enjoy the convenience of Internet like today, products like music, software, books are all over the internet. However, while we enjoy these products, unlicensed products are eating up the market share of the original product due to various reasons. Here is a graphic statistics about the piracy status in 2015:
+
+<a href="https://www.statista.com/chart/5164/use-of-unlicensed-software/" title="Infographic: The Cost of Software Piracy | Statista"><img src="https://infographic.statista.com/normal/chartoftheday_5164_use_of_unlicensed_software_n.jpg" alt="Infographic: The Cost of Software Piracy | Statista" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;"/></a> You will find more statistics at <a href="https://www.statista.com/">Statista</a>
+
+This graph showed that China has the biggest rate of piracy, but US has the biggest value of piracy products.
+
+What about people's opinion on digital piracy ("the practice of illegally copying and selling digital music, video, computer software, etc." according to [Cambridge Dictionary](http://dictionary.cambridge.org/us/dictionary/english/digital-piracy))?
 
 In order to get to know people's ideas on digital piracy, I designed a survey. Based on their income, I have interviewed two different people. The first person I have interviewed was Zhangzi Yang, a sophomore in Allegheny College. The second person I have interviewed was Tamara, who is a TA at Allegheny College for 2016-2017. This survey contains two parts. The first part asks them personal questions which can describe themselves. Here is part 1, and answers of my interviewees:
 
