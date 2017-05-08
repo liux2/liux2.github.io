@@ -4,9 +4,9 @@ title: 'Paid or Free : Ideas of Piracy on Different Income Group'
 subtitle: by Xingbang Liu
 bigimg: /img/Piracy.jpg
 ---
-**TL;DR Let's hear some public opinion on Piracy**
+**TL;DR Let's hear some public opinions on piracy. What are International students' opinions?**
 
-In a world where people enjoy the convenience of Internet like today, products like music, software, books are all over the internet. However, while we enjoy these products, unlicensed products are eating up the market share of the original product due to various reasons. Here is a graphic statistics about the piracy status in 2015:
+In a world where people enjoy the convenience of Internet like today, products like music, software, books are all over the Internet. However, while we enjoy these products, unlicensed products are eating up the market share of the original product due to various reasons. Here is a graphic statistics about the piracy status in 2015:
 
 <a href="https://www.statista.com/chart/5164/use-of-unlicensed-software/" title="Infographic: The Cost of Software Piracy | Statista"><img src="https://infographic.statista.com/normal/chartoftheday_5164_use_of_unlicensed_software_n.jpg" alt="Infographic: The Cost of Software Piracy | Statista" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;"/></a> You will find more statistics at <a href="https://www.statista.com/">Statista</a>
 
@@ -57,8 +57,8 @@ In next section, I asked them the following questions to get their reaction of t
 * Zhangzi Yang: I can save money from this. In other cases, for example, if the video doesn't have any subtitles, I could use pirate edition to add subtitles. Also, if the video has restrictions in my area, I could use a pirated edition.
 * Tamara: I can access more resources without paying, and I would gain more education without being richer.
 
-Based on this survey, I have some findings. My interviewees have different income per year, Ziyang has more salary than Tamara, and Ziyang is more willing to pay for copyright products. However, both of them would try pirate if it is legal under some circumstances because pirate can save money, and pirated edition have worse quality. I agree with them. Even though high income makes copyright products affordable, it is always good to save some money. When I asked about their opinion about the income of music producers, they all agreed that pirate is bad for not famous producers. Particularly, Tamara pointed that high price could be the barrier between people and better education.
+Based on this survey, I have some findings. My interviewees have different income per year, Ziyang has more salary than Tamara, and Ziyang is more willing to pay for copyright products. However, both of them would try to pirate if it is legal under some circumstances because pirating can save money, and pirated edition have worse quality. I agree with them. Even though high income makes copyright products affordable, it is always good to save some money. When I asked about their opinion about the income of music producers, they all agreed that pirate is bad for not famous producers. Particularly, Tamara pointed that high price could be the barrier between people and better education.
 
-After this survey, the safest conclusion I can drew is, people understand that they must buy copyright product, but they also want to save money. It probably would be better when we have a improved law about copyright.  
+After this survey, the safest conclusion I can draw is: people understand that they must buy copyright product, but they also want to save money. It probably would be better when we have a improved law about copyright (details are in my [presentation](http://cdn.rawgit.com/liux2/fs102Spring2017-presentation02-liux2/master/Internet_Piracy_2017.html "Presentation two slide")). 
 
 <a title="sharing is caring" href="https://flickr.com/photos/psit/3709583982">sharing is caring</a> flickr photo by <a href="https://flickr.com/people/psit">· · · — — — · · ·</a> shared under a <a href="https://creativecommons.org/licenses/by-nc/2.0/">Creative Commons (BY-NC) license</a>
