@@ -1,9 +1,13 @@
 ---
 layout: page
-title: Xingbang liu
-subtitle: Computer Science, AI
-use-site-title: true
 ---
+    <div class="header">
+        <div class="wrap">
+            <div class="head-text">
+                <h1 class="tagline"><span id="typed"></span></h1>
+                <h4 class="sub-tagline">Computer Science, AI</h4>
+                <br></br>
+            </div>
 
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -36,7 +40,34 @@ use-site-title: true
     </div>
 </div>
 
+<script src="/js/jquery.js"></script>
+<script src="/js/typed.js"></script>
+<script>
+  $(function(){
+    $("#typed").typed({
+       strings: ["Who am I", "Xingbang Liu"],
+       // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+       stringsElement: $('#typed-strings'),
+       // typing speed
+       typeSpeed: 30,
+       // time before typing starts
+       backSpeed: 100,
+       // time before backspacing
+       backDelay: 3000,
+       // show cursor
+       showCursor: true,
+       // character for cursor
+       cursorChar: "|",
+       // either html or text
+       contentType: 'html',
+       // call when done callback function
+       callback: function() {}
+    });
+});
+</script>
+
 <hr class="large"></hr>
+
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
