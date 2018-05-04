@@ -3,6 +3,8 @@ layout: post
 title: 'Video Chat: We are More Connected Than Ever Before'
 subtitle: by Xingbang Liu
 bigimg: /img/videoChat.jpg
+sitemap:
+  lastmod: 2014-11-07
 ---
 **TL;DR Even though we are living far away from each other, we are still connected by video chat**
 
