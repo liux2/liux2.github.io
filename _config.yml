@@ -24,9 +24,8 @@ description: Xingbang Liu
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  #Talk: "presentation"
+  Talk: "presentation"
   Resume: "resume.pdf"
-  Presentations: "presentation"
   #Resources:
   #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #  - Learn markdown: "http://www.markdowntutorial.com/"
