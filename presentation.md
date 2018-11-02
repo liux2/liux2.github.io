@@ -22,4 +22,4 @@ bigimg: /img/ted.jpg
 
 [Teaching demo](presentations/edu_teaching_demo/edu_teaching_demo.html) &mdash; 11/2/2018
 
-<a title="TED Registration" href="https://flickr.com/photos/pmo/413424395">TED Registration</a> flickr photo by <a href="https://flickr.com/people/pmo">pmo</a> shared under a <a href="https://creativecommons.org/licenses/by/2.0/">Creative Commons (BY) license</a>
+<p><a title="TED Registration" href="https://flickr.com/photos/pmo/413424395">TED Registration</a> flickr photo by <a href="https://flickr.com/people/pmo">pmo</a> shared under a <a href="https://creativecommons.org/licenses/by/2.0/">Creative Commons (BY) license</a></p>
