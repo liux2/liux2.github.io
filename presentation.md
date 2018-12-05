@@ -23,3 +23,5 @@ bigimg: /img/ted.jpg
 [My first presentation at Summer School](http://cdn.rawgit.com/liux2/Psych_Presentation_Chap12/master/Aggression_2017_Summer.html) &mdash; 6/19/2017 &mdash; [The raw Github page](https://github.com/liux2/Psych_Presentation_Chap12)
 
 [Teaching demo](presentations/edu_teaching_demo.html) &mdash; 11/2/2018
+
+[Deeper Dive 4](presentations/edu_cross_compare.html) &mdash; 12/7/2018
