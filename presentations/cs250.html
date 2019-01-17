@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>cs250 final presentation</title>
+
+    <meta name="description" content="Presentation slides for cs390">
+    <meta name="author" content="Xingbang Liu">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/night-gkapfham.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <!-- <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/tomorrow&#45;night&#45;bright.css">         -->
+    <!-- <link rel="stylesheet" href="lib/css/tomorrow&#45;night&#45;bright.css"> -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Install Font Awesome and the Google Web fonts -->
+    <!-- <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans' rel='stylesheet' type='text/css'> -->
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+    <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML" async>
+    </script>
+    <!--[if lt IE 9]>
+      <script src="lib/js/html5shiv.js"></script>
+      <![endif]-->
+
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <div class="slides">
+
+        <section data-background-transition="none" data-background="images/cs250/suggestion.png" style="background: rgba(29,31,33,0.9)">
+          <h1>Music Suggestion System</h1>
+              <h2>CS 250 Final Project</h2>
+              <p>Matt Jones, Travis Thomas, Xingbang Liu</p>
+              <br/><a title="suggestions" href="https://flickr.com/photos/jurgenappelo/11925703914">suggestions</a> flickr photo by <a href="https://flickr.com/people/jurgenappelo">Jurgen Appelo</a> shared under a <a href="https://creativecommons.org/licenses/by/2.0/">Creative Commons (BY) license</a> </small>
+
+              <aside class="notes">
+    						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+    					</aside>
+        </section>
+
+        <section data-background-transition="none" data-background="images/cs250/spotify.png" style="background: rgba(29,31,33,0.9)">
+          <h2>Motivation</h2>
+          <h4>Why Music Suggestion System?</h4>
+          <ul>
+            <li>Build off of previous labs</li>
+            <li>Spotify & Pandora</li>
+          </ul>
+
+          <aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+        </section>
+
+        <section data-background="images/cs250/Collaborative_filtering.gif">
+          <h2>Algorithms</h2>
+          <a href="https://en.wikipedia.org/wiki/Collaborative_filtering">Collaborative filtering</a>
+
+          <aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+        </section>
+
+        <section>
+          <ul>
+            <li>Memory-based</li>
+            <p>$$cos(A) = \frac{\vec a \cdot \vec b} {|\vec a| \times |\vec b|}$$</p>
+            <li>Model-based</li>
+            <p>$$R_{user,song}= Q_{user,factor} P^T_{factor,song}$$</p>
+          </ul>
+
+          <aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+        </section>
+
+        <section>
+            <h2>Background/Overview</h2>
+            <p>Repository structure overview</p>
+
+            <aside class="notes">
+  						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+  					</aside>
+        </section>
+
+        <section data-background-transition="none" data-background="images/cs250/structure.jpg">
+          <aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+        </section>
+
+        <section>
+          <h2>Like List</h2>
+          <ul>
+            <li>liked.csv</li>
+            <li>BufferedReader</li>
+            <li>Prompt out titles</li>
+            <li>
+              <pre><code class="hljs">String[] Songs = line.split(cvsSplitBy);</code></pre>
+            </li>
+            <li>Sort by int(bubble sort) or String(exchange sort)</li>
+          </ul>
+          <aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+        </section>
+
+        <section>
+          <h2>Explore</h2>
+          <ul>
+            <li>Store our Cloud list (music.csv) into a 2D ArrayList</li>
+            <li>song<>(String) in exploreSongs<>(String)</li>
+            <li>randomly pick 5 songs</li>
+            <li>if user likes, then update "y" (in music.csv) by using BufferedWriter</li>
+            <li>add line to liked.csv by using FileWriter</li>
+          </ul>
+          <aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+        </section>
+
+        <section>
+          <h2>Music Suggestion</h2>
+          <ul>
+            <li>Not done yet</li>
+            <li>Melody score (1-10 representing speed)</li>
+            <li>Calculate mean score from liked.csv</li>
+            <li>Linear search in music.csv</li>
+            <li>Randomly select 2 songs</li>
+          </ul>
+          <aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+        </section>
+
+        <section>
+          <h2>Math Evaluation</h2>
+          <ul>
+          <li>By running<pre><code class="hljs">System.nanoTime()</code></pre>four times, I got:</li>
+          <li><table>
+            <thead><tr><th>in nano seconds</th><th>bubble sort</th><th>exchange sort</th></tr></thead>
+            <tbody>
+              <tr><td>1.</td><td>186,525</td><td>106,856</td></tr>
+              <tr><td>2.</td><td>156,695</td><td>111,009</td></tr>
+              <tr><td>3.</td><td>156,318</td><td>110,631</td></tr>
+              <tr><td>4.</td><td>239,386</td><td>110,254</td></tr>
+              <tr><td>mean</td><td>184,731</td><td>109,688</td></tr>
+            </tbody>
+          </table></li>
+          <li>$$O(n^{2})$$</li>
+        </ul>
+        </section>
+
+        <section>
+          <h2>Conclusion</h2>
+          <ul>
+            <li>Making good progress</li>
+            <li>inheritance</li>
+            <li>Biggest Challenge - Overwriting Y in the music.csv</li>
+            <p>2d arrayList, Test.csv</p>
+          </ul>
+
+          <aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+        </section>
+
+        <section data-background-transition="none" data-background="images/cs250/implementation.jpg" style="background: rgba(29,31,33,0.9)">
+          <h2>Do you have any questions?</h2>
+          <p><b class="orange">. . .</b></p>
+          <br/><a title="Flickr API shell script" href="https://flickr.com/photos/christiaancolen/27635346150">Flickr API shell script</a> flickr photo by <a href="https://flickr.com/people/christiaancolen">Christiaan Colen</a> shared under a <a href="https://creativecommons.org/licenses/by-sa/2.0/">Creative Commons (BY-SA) license</a> </small>
+
+          <aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+        </section>
+
+      </div>
+    </div>
+
+      <script src="lib/js/head.min.js"></script>
+      <script src="js/reveal.min.js"></script>
+
+      <script>
+
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+          controls: true,
+          progress: true,
+          history: true,
+          center: true,
+          mouseWheel: true,
+          theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+          transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/none/none
+          math: {
+		      mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+	      	config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+	        },
+          // Parallax scrolling
+          // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+          // parallaxBackgroundSize: '2100px 900px',
+
+          // Optional libraries used to extend on reveal.js
+          dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'plugin/math/math.js', async: true }
+          ]
+        });
+
+window.addEventListener("mousedown", handleClick, false);
+window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+function handleClick(e) {
+  e.preventDefault();
+  if(e.button === 3) Reveal.next();
+  if(e.button === 4) Reveal.prev();
+}
+
+      </script>
+
+  </body>
+</html>

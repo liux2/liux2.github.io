@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>cs390 final presentation</title>
+
+    <meta name="description" content="Presentation slides for cs390">
+    <meta name="author" content="Xingbang Liu">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/night-gkapfham.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <!-- <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/tomorrow&#45;night&#45;bright.css">         -->
+    <!-- <link rel="stylesheet" href="lib/css/tomorrow&#45;night&#45;bright.css"> -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Install Font Awesome and the Google Web fonts -->
+    <!-- <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans' rel='stylesheet' type='text/css'> -->
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+
+    <!--[if lt IE 9]>
+      <script src="lib/js/html5shiv.js"></script>
+      <![endif]-->
+
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <div class="slides">
+
+        <section data-background-transition="none" data-background="images/cs390/shooting.gif" style="background: rgba(29,31,33,0.9)">
+          <h1>US Mass Shooting Data Analysis</h1>
+              <h2>CS 390 Final Project</h2>
+              <p>Ziyang Zhang, Xingbang Liu, Zijun Xia</p>
+              <br/><a title="Murder" href="https://flickr.com/photos/9516941@N08/3180489546">Murder</a> flickr photo by <a href="https://flickr.com/people/9516941@N08">Asbestos Bill</a> shared under a <a href="https://creativecommons.org/licenses/by/2.0/">Creative Commons (BY) license</a></small>
+        </section>
+
+        <section>
+          <h2>How did we get the data?</h2>
+          <ul>
+            <li>Kaggle</li>
+            <li>Las Vegas mass shooting</li>
+            <li>Question:</li>
+              <p>Can we find patterns from the mass shooting cases, so that we can prevent it from happening?</p>
+          </ul>
+        </section>
+
+        <section>
+            <h2>Data set introduction</h2>
+            <p><b class="orange">Including:</b></p>
+            <p>ID, Title, City, State, Date, Summary,	Fatalities,	Injured, Total victims,	Mental Health Issues,	Race,	Gender,	Latitude,	Longitude</p>
+        </section>
+
+        <section>
+          <section>
+            <h2>Prehandleing</h2>
+            <p><b class="orange">1.</b> Missing location information</p>
+            <p><b class="orange">2.</b> Title difficult to unerstand</p>
+            <p><b class="orange">3.</b> Data not tiddy</p>
+          </section>
+          <section data-background-transition="none" data-background="images/cs390/data.png">
+          </section>
+          <section data-background-transition="none" data-background="images/cs390/tiddy.png">
+          </section>
+        </section>
+
+        <section>
+          <h2>Data details</h2>
+          <p>Source: Mass shooting data(1966 - 2017)</p>
+          <ul>
+            <li>Chosen from Kaggle website.</li>
+            <li>Definition of Mass shooting: greater than or equal to three victims.</li>
+            <li>Goal:  </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>1st Question:</h2>
+          <p><b class="orange">How can we use maps to analyze the data?</b></p>
+          <pre><code class="hljs">
+            Abandon dot plotting <- Too messy
+            New library(maps) and library(ggmap)
+          </code></pre>
+        </section>
+
+        <section data-background-transition="none" data-background="images/cs390/map.png">
+        </section>
+
+        <section data-background-transition="none" data-background="images/cs390/map1.png">
+        </section>
+
+        <section data-background-transition="none" data-background="images/cs390/max.png" style="background: rgba(29,31,33,0.9)">
+          <p>The greatest number of victims in each state.</p>
+        </section>
+
+        <section data-background-transition="none" data-background="images/cs390/min.png" style="background: rgba(29,31,33,0.9)">
+          <p>The minimum number of victims in each state.</p>
+        </section>
+
+        <section data-background-transition="none" data-background="images/cs390/color.jpg" style="background: rgba(29,31,33,0.9)">
+          <h2>2nd Question:</h2>
+          <p><b class="orange">The Same Victims?</b></p>
+          <p>As the picture shows, Florida & Texas has the similar color</p>
+        </section>
+
+        <section data-background-transition="none" data-background="images/cs390/filter.png" style="background: rgba(29,31,33,0.9)">
+          <h2>Filter the data</h2>
+          <ul>
+            <li>Left only Florida and Texas</li>
+            <li>Add all the victim from each year together</li>
+          </ul>
+        </section>
+
+        <section data-background-transition="none" data-background="images/cs390/ttest.jpg" style="background: rgba(29,31,33,0.9)">
+          <h2>T-Test</h2>
+          <ul>
+            <li>P-Value ≈ 1</li>
+            <li>Those two states almost have the same Victims</li>
+          </ul>
+          </section>
+
+        <section>
+          <section>
+          <h2>Does mass shooting has any relationship with the age of shooter?</h2>
+          </section>
+          <section data-background-transition="none" data-background="images/cs390/agecut.png">
+          </section>
+        </section>
+
+        <section>
+          <section>
+          <h2>Does mass shooting has any relationship with the mental state of shooter?</h2>
+          </section>
+          <section data-background-transition="none" data-background="images/cs390/mental.png">
+          </section>
+        </section>
+
+        <section>
+          <section>
+          <h2>Conbind together</h2>
+          </section>
+          <section data-background-transition="none" data-background="images/cs390/ageMental.png">
+          </section>
+        </section>
+
+      </div>
+
+      <script src="lib/js/head.min.js"></script>
+      <script src="js/reveal.min.js"></script>
+
+      <script>
+
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+          controls: true,
+          progress: true,
+          history: true,
+          center: true,
+          mouseWheel: true,
+          theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+          transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/none/none
+
+          // Parallax scrolling
+          // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+          // parallaxBackgroundSize: '2100px 900px',
+
+          // Optional libraries used to extend on reveal.js
+          dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+          ]
+        });
+
+window.addEventListener("mousedown", handleClick, false);
+window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+function handleClick(e) {
+  e.preventDefault();
+  if(e.button === 0) Reveal.next();
+  if(e.button === 2) Reveal.prev();
+}
+
+      </script>
+
+  </body>
+</html>
