@@ -22,3 +22,7 @@ bigimg: /img/ted.jpg
 [Teaching demo](presentations/edu_teaching_demo.html) &mdash; 11/2/2018
 
 [Deeper Dive 4](presentations/edu_cross_compare.html) &mdash; 12/7/2018
+
+### Junior Seminar
+
+[Lightning talk: my interests](presentations/cs_interests.html) &mdash; 1/17/2019
