@@ -26,3 +26,5 @@ bigimg: /img/ted.jpg
 ### Junior Seminar
 
 [Lightning talk: my interests](presentations/cs_interests.html) &mdash; 1/17/2019
+
+[Lightning talk: narrow down my interests](presentations/interests_narrow.html) &mdash; 1/24/2019
