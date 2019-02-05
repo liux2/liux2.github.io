@@ -28,3 +28,5 @@ bigimg: /img/ted.jpg
 [Lightning talk: my interests](presentations/cs_interests.html) &mdash; 1/17/2019
 
 [Lightning talk: narrow down my interests](presentations/interests_narrow.html) &mdash; 1/24/2019
+
+[Lightning talk: inspiration from an article](presentations/article_research.html) &mdash; 2/5/2019
