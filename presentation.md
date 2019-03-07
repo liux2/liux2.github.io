@@ -1,7 +1,7 @@
 ---
 layout: page
 title: My Presentation
-subtitle: How do I shear my ideas?
+subtitle: How do I share my ideas?
 bigimg: /img/ted.jpg
 ---
 
@@ -9,19 +9,15 @@ bigimg: /img/ted.jpg
 
 # Presentation List
 
+### College Computer Science
+
 [Freshman seminar class Video Chat](presentations/videoChat_2017.html) &mdash; 3/8/2017
-
-[Summer school: social psychology aggression presentation](presentations/Aggression_2017_Summer.html) &mdash; 6/19/2017
-
-[Summer school: social psychology prejudice presentation](presentations/Prejudice_2017_Summer.html) &mdash; 6/25/2017
 
 [Computer science R language US mass shooting presentation](us_mass_shooting.html) &mdash; 12/10/2017
 
 [Computer science algorithm final project](presentations/cs250.html) &mdash; 4/27/2018
 
-[Teaching demo](presentations/edu_teaching_demo.html) &mdash; 11/2/2018
-
-[Deeper Dive 4](presentations/edu_cross_compare.html) &mdash; 12/7/2018
+[Compiler access right and security](presentations/compiler_safty.html) &mdash; 3/7/2019
 
 ### Junior Seminar
 
@@ -32,3 +28,13 @@ bigimg: /img/ted.jpg
 [Lightning talk: inspiration from an article](presentations/article_research.html) &mdash; 2/5/2019
 
 [Lightning talk: idea on recommendation system](presentations/topN.html) &mdash; 2/12/2019
+
+### Other
+
+[Summer school: social psychology aggression presentation](presentations/Aggression_2017_Summer.html) &mdash; 6/19/2017
+
+[Summer school: social psychology prejudice presentation](presentations/Prejudice_2017_Summer.html) &mdash; 6/25/2017
+
+[Teaching demo](presentations/edu_teaching_demo.html) &mdash; 11/2/2018
+
+[Deeper Dive 4](presentations/edu_cross_compare.html) &mdash; 12/7/2018
