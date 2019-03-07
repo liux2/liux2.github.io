@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>My Computer Science Interests
+    </title>
+
+    <meta name="description" content="Slides for presentation">
+    <meta name="author" content="Xingbang Liu">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/night-gkapfham.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <!-- <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/tomorrow&#45;night&#45;bright.css">         -->
+    <!-- <link rel="stylesheet" href="lib/css/tomorrow&#45;night&#45;bright.css"> -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Install Font Awesome and the Google Web fonts -->
+    <!-- <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans' rel='stylesheet' type='text/css'> -->
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+
+    <!--[if lt IE 9]>
+      <script src="lib/js/html5shiv.js"></script>
+      <![endif]-->
+
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <div class="slides">
+
+        <section data-background-transition="none" data-background="images/compiler_access/security.jpg" style="background: rgba(29,31,33,0.9)">
+          <h2>Compiler Access and Scurity<h2>
+            <h4><p>Xingbang Liu & Zijun Xia</p></h4>
+            <h4><p>3/7/2019</p></h4>
+            <br><small><a title="System Lock" href="https://flickr.com/photos/yusamoilov/13334048894">System Lock</a> flickr photo by <a href="https://flickr.com/people/yusamoilov">Yu. Samoilov</a> shared under a <a href="https://creativecommons.org/licenses/by/2.0/">Creative Commons (BY) license</a> </small></br>
+        </section>
+
+        <section>
+          <h1>What do you think?</h1>
+        </section>
+
+        <section>
+          <h2>Relationship</h2>
+          <h4>Compiler makes computer vulnerable</h4>
+          <ul>
+            <p>System processes lead to:</p>
+            <p><b class="orange">1. </b>Gaining access right</p>
+            <p><b class="orange">2. </b>Changing code</p>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Access Right?</h2>
+          <h4>Java as example</h4>
+          <p><a title="JDK8" href="images/compiler_access/jdk8_s.png">JDK8</a></p>
+          <p>Java checks file source:</p>
+          <pre><code class="hljs" data-trim contenteditable>
+FilePermission filePermission=new FilePermission("/tmp/*","read,write");
+SocketPermission socketPermission=new SocketPermission("192.168.0.1:8080","listen");
+          </code></pre>
+          <p><a title="java" href="https://blog.csdn.net/qq_18377515/article/details/79591660">Source</a></p>
+        </section>
+
+        <section>
+          <h2>Access Right?</h2>
+          <h4>Java as example</h4>
+          <p>Java also checks permission:</p>
+          <pre><code class="hljs" data-trim contenteditable>
+public void checkPermission(Permission perm)
+public ProtectionDomain getProtectionDomain()
+public ProtectionDomain(CodeSource var1, PermissionCollection var2)
+public final CodeSource getCodeSource()
+public boolean implies(Permission var1)
+public final Certificate[] getCertificates()
+public final URL getLocation()
+          </code></pre>
+          <p><a title="java" href="https://blog.csdn.net/qq_18377515/article/details/79591660">Source</a></p>
+        </section>
+
+        <section>
+          <h2>Access Right?</h2>
+          <h4>Java as example</h4>
+          <p>Java also has security policy file which grants the permission</p>
+          <img src="images/compiler_access/policy.png" alt="java policy" width="70%" style="float: center">
+        </section>
+
+        <section>
+          <h2>How to crack the system?</h2>
+          <h3>Example</h3>
+          <p><b class="orange">1. </b>Online compilers</p>
+          <ul>
+            <p>Saves time</p>
+            <p>Saves resources</p>
+            <p><b class="orange">BUT </b>user inputs are from Internet</p>
+          </ul>
+        </section>
+
+        <section>
+          <h2>How to crack the system?</h2>
+          <h3>Example</h3>
+          <p><b class="orange">1. </b>Online compilers</p>
+          <ul>
+            <p>Gaining access:</p>
+            <p><b class="orange">GetEnv(), system(): </b>allow an attacker to study and execute any command on the remote machine</p>
+            <p><b class="orange">GetEnv(): </b>allows a hacker to learn information about the machine that is otherwise concealed from the web interface, such as the username and OS version.</p>
+          </ul>
+        </section>
+
+        <section>
+          <h2>How to creck the system?</h2>
+          <h3>Example</h3>
+          <p><b class="orange">1. </b>Online compilers</p>
+          <ul>
+            <p>Maintaining control:</p>
+            <p>Hackers cannot input codes every time, so</p>
+            <p><b class="orange">execl() :</b>allows the user to specify any arbitrary program to replace the current process</p>
+          </ul>
+        </section>
+
+        <section>
+          <h2>How to creck the system?</h2>
+          <h3>Example</h3>
+          <p><b class="orange">2. </b>Code optimization</p>
+          <pre><code class="hljs" data-trim contenteditable>
+g_exit; //global variable
+g_exit= 1; //will be modified to break
+while(g_exit)
+{
+...
+}
+          </code></pre>
+          <p>Will be modified as while(1)</p>
+        </section>
+
+        <section>
+          <h2>How to creck the system?</h2>
+          <h3>Example</h3>
+          <p><b class="orange">2. </b>Code optimization</p>
+          <img src="images/compiler_access/GCC_Fig1.png" alt="gcc" width="70%" style="float: center">
+          <p>catch the case when len is so large that buf + len wraps around and bypasses the first check</p>
+        </section>
+
+        <section>
+          <h2>How to creck the system?</h2>
+          <h3>Example</h3>
+          <p><b class="orange">2. </b>Code optimization</p>
+          <ul>
+            <li>Works with a flat address space, fails on a segmented architecture</li>
+            <li>Overflowed pointer is undefined, allows gcc to simply assume that no pointer overflow ever occurs on any architecture.</li>
+            <li>buf + len must be larger than buf and thus the “overflow” check always evaluates to false</li>
+          </ul>
+          <p><a title="gcc" href="https://www.tripwire.com/state-of-security/vulnerability-management/compiler-undermining-secure-coding/">Source</a></p>
+        </section>
+
+        <section>
+          <h2>Solutions</h2>
+          <h4>Compiler switchs</h4>
+          <img src="images/compiler_access/Compiler-Access-on-WHM3.png" alt="gcc" width="70%" style="float: center">
+          <p><a title="gcc" href="https://www.interserver.net/tips/kb/compiler-access-whm/">WHM</a></p>
+        </section>
+
+        <section>
+          <h2>Solutions</h2>
+          <h4>Sand box</h4>
+          <p>Also disable exploitable functions</p>
+        </section>
+
+        <section>
+          <h1>The End</h1>
+        </section>
+
+      </div>
+
+      <script src="lib/js/head.min.js"></script>
+      <script src="js/reveal.min.js"></script>
+
+      <script>
+
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+          controls: true,
+          progress: true,
+          history: true,
+          center: true,
+          mouseWheel: true,
+          theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+          transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/none/none
+
+          // Parallax scrolling
+          // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+          // parallaxBackgroundSize: '2100px 900px',
+
+          // Optional libraries used to extend on reveal.js
+          dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+          ]
+        });
+
+window.addEventListener("mousedown", handleClick, false);
+window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+// function handleClick(e) {
+//   e.preventDefault();
+//   if(e.button === 0) Reveal.next();
+//   if(e.button === 2) Reveal.prev();
+// }
+
+      </script>
+
+  </body>
+</html>
