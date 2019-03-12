@@ -11,9 +11,9 @@ bigimg: /img/ted.jpg
 
 ### College Computer Science
 
-[Freshman seminar class Video Chat](presentations/videoChat_2017.html) &mdash; 3/8/2017
+[Freshman seminar class Video Chat](presentations/videoChat_2017.html){:target="_blank"} &mdash; 3/8/2017
 
-[Computer science R language US mass shooting presentation](us_mass_shooting.html) &mdash; 12/10/2017
+[Computer science R language US mass shooting presentation](us_mass_shooting.html){:target="_blank"} &mdash; 12/10/2017
 
 [Computer science algorithm final project](presentations/cs250.html) &mdash; 4/27/2018
 
