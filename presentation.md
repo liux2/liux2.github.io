@@ -29,7 +29,7 @@ bigimg: /img/ted.jpg
 
 [Lightning talk: idea on recommendation system](presentations/topN.html){:target="_blank"} &mdash; 2/12/2019
 
-[Lightning talk: recreating blocks](presentations/MethodSteps.html){:target="_blank"} &mdash; 3/28/2019
+[Lightning talk: recreating blocks](presentations/productSteps.html){:target="_blank"} &mdash; 3/28/2019
 
 ### Other
 
