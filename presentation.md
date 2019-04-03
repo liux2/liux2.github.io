@@ -31,7 +31,7 @@ bigimg: /img/ted.jpg
 
 [Lightning talk: recreating blocks](presentations/productSteps.html){:target="_blank"} &mdash; 3/28/2019
 
-[Lightning talk: recreating blocks](presentations/tools.html){:target="_blank"} &mdash; 4/3/2019
+[Lightning talk: potential tools](presentations/tools.html){:target="_blank"} &mdash; 4/3/2019
 
 ### Other
 
