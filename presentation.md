@@ -31,6 +31,8 @@ bigimg: /img/ted.jpg
 
 [Lightning talk: recreating blocks](presentations/productSteps.html){:target="_blank"} &mdash; 3/28/2019
 
+[Lightning talk: recreating blocks](presentations/tools.html){:target="_blank"} &mdash; 4/3/2019
+
 ### Other
 
 [Summer school: social psychology aggression presentation](presentations/Aggression_2017_Summer.html){:target="_blank"} &mdash; 6/19/2017
