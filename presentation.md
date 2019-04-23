@@ -19,6 +19,8 @@ bigimg: /img/ted.jpg
 
 [Compiler access right and security](presentations/compiler_safty.html){:target="_blank"} &mdash; 3/7/2019
 
+[Compiler Final Project](presentations/CompilerFinalProject.html){:target="_blank"} &mdash; 4/23/2019
+
 ### Junior Seminar
 
 [Lightning talk: my interests](presentations/cs_interests.html){:target="_blank"} &mdash; 1/17/2019
