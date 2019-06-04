@@ -44,3 +44,5 @@ bigimg: /img/ted.jpg
 [Teaching demo](presentations/edu_teaching_demo.html){:target="_blank"} &mdash; 11/2/2018
 
 [Deeper Dive 4](presentations/edu_cross_compare.html){:target="_blank"} &mdash; 12/7/2018
+
+[Internship self-introduction](presentations/intern_selfintro.html){:target="_blank"} &mdash; 6/6/2019
