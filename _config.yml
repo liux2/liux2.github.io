@@ -23,7 +23,7 @@ description: Xingbang Liu
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  #About Me: "aboutme"
   Talk: "presentation"
   Resume: "resume/resume.pdf"
   #Resources:
