@@ -4,7 +4,7 @@ title: Resume
 ---
 
 <div id="resume-pdf" class="base">
-  <object data="{{ site.baseurl }}/resume/resume.pdf" width="100%" height="100%" type="application/pdf">
+  <object data="{{ site.baseurl }}/resume/resume.pdf" width="100%" height="1000" type="application/pdf">
     <embed src="{{ site.baseurl }}/resume/resume.pdf" type='application/pdf'>
       Unable to display - <a href="{{ site.baseurl }}/resume/resume.pdf">Download</a>
     </embed>
