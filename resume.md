@@ -1,5 +1,5 @@
 ---
-layout: pdf
+layout: base
 title: Resume
 ---
 <object data="resume/resume.pdf" type="application/pdf">
