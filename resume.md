@@ -2,4 +2,4 @@
 layout: base
 title: Resume
 ---
-<object data="resume/resume.pdf" width="1000" height="1000" type='application/pdf'/>
+<object data="resume/resume.pdf" width="1000" height="1000" type='application/pdf'/></object>
