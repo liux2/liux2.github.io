@@ -6,7 +6,7 @@ title: Resume
 <div id="resume-pdf" class="base">
   <object data="/resume.pdf" type="application/pdf">
     <embed src="/resume.pdf" type='application/pdf'>
-      Unable to display - <a href="/resume.pdf">Download</a>
+      Unable to display - <a href="resume/resume.pdf">Download</a>
     </embed>
   </object>
 </div>
