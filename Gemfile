@@ -2,4 +2,7 @@ source 'https://rubygems.org'
 
 gem 'github-pages', '106'
 gem 'jekyll-paginate'
-gem 'jekyll-pdf-embed'
+
+group :jekyll_plugins do
+  gem "jekyll-pdf-embed"
+end
