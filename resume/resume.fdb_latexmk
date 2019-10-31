@@ -1,0 +1,32 @@
+# Fdb version 3
+["biber resume"] 1572563290 "resume.bcf" "resume.bbl" "resume" 1572563290
+  "resume.bcf" 1568066875 87864 c7f6a32b905409ae464c5646b2d87eb1 ""
+  (generated)
+  "resume.bbl"
+["pdflatex"] 1572563292 "resume.tex" "/home/sheldon/Documents/liux2.github.io/resume/resume.pdf" "resume" 1572563292
+  "/etc/texmf/web2c/texmf.cnf" 1551896216 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/sheldon/Documents/liux2.github.io/resume/resume.aux" 1568066875 1120 8985218a408db887473e0f46979ebff4 ""
+  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1480098701 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "/usr/share/texlive/texmf-dist/tex/generic/unicode-data/CaseFolding.txt" 1498600549 78161 7893b6e005c5a521319a0d12062ae122 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/unicode-data/SpecialCasing.txt" 1498600549 16830 e49d6f1fe536f43762ba1ecfe9e53e12 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/unicode-data/UnicodeData.txt" 1498600549 1735010 2a52f30695dcc821f0f224650552beaf ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1480098821 19821 310da678527a7dfe2a02c88af38079b7 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1480098821 8292 e897c12e1e886ce77fe26afc5d470886 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty" 1510271071 1589 9f35dfbb28ed2e1e381b9563c9240f27 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1480098830 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
+  "/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def" 1515537368 17334 520b9b85ad8a2a48eda3f643e27a5179 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex" 1519422854 865979 4e627d13dfa51060cef916f5bf16b57a ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty" 1519422854 9854 30dd9ffac9577d887036852ef4c7ccc0 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def" 1519422854 12836 6f78fd4e4ede5f794b4e9523f8e11191 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1519337871 76828 accb53d91c291d3ec67841b8989ca15c ""
+  "/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty" 1480098843 55589 34128738f682d033422ca125f82e5d62 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1551896270 4129293 95c63c98873f4beedc6d777fd0f52cf1 ""
+  "friggeri-cv.cls" 1551228977 6815 9cc531cfb4ea053f6a9953a7db2c72cf ""
+  "resume.tex" 1572563284 4796 04a34c725fe0a0c76a015cc24d874c28 ""
+  (generated)
+  "resume.log"
+  "/home/sheldon/Documents/liux2.github.io/resume/resume.pdf"
+  "/home/sheldon/Documents/liux2.github.io/resume/resume.log"
