@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Proposal Defense
+    </title>
+
+    <meta name="description" content="Slides for presentation">
+    <meta name="author" content="Xingbang Liu">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/night-gkapfham.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <!-- <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/tomorrow&#45;night&#45;bright.css">         -->
+    <!-- <link rel="stylesheet" href="lib/css/tomorrow&#45;night&#45;bright.css"> -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Install Font Awesome and the Google Web fonts -->
+    <!-- <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans' rel='stylesheet' type='text/css'> -->
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+
+    <!--[if lt IE 9]>
+      <script src="lib/js/html5shiv.js"></script>
+      <![endif]-->
+
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <div class="slides">
+
+        <section data-background-transition="none" data-background="comp/comp_img/music_sheet.jpg" style="background: rgba(29,31,33,0.9)">
+          <h2>Music Recommendation System by Mapping Music and Descriptive Paragraph<h2>
+            <h4><p>Xingbang Liu</p></h4>
+            <h4><p>11/12/2019</p></h4>
+            <br><small><a title="Music" href="https://flickr.com/photos/jessekruger/390534244">Music</a> flickr photo by <a href="https://flickr.com/people/jessekruger">Jesse Kruger</a> shared under a <a href="https://creativecommons.org/licenses/by-nc/2.0/">Creative Commons (BY-NC) license</a> </small></br>
+        </section>
+
+        <section>
+          <h2>What Music Can Do</h2>
+          <ul>
+            <li>Evoke emotions</li>
+            <li>Influence moods</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Current Product</h2>
+          <ul>
+            <li>YouTube Music, Spotify</li>
+            <li>Recommendor System</li>
+            <ul>
+              <li>Based on browsing history</li>
+              <li>Rank tracks</li>
+            </ul>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Limitation</h2>
+          <ul>
+            <li>Can't detact user emotions</li>
+            <li>Only digs deeper</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>My Idea</h2>
+          <ul>
+            <li>Music recommendor/Browser</li>
+            <li>User descriptive paragraph</li>
+            <li>Match songs</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>My Workflow</h2>
+          <img src="comp/comp_img/aid_graph/workflow.png" alt="Workflow" width="90%" style="float: center">
+        </section>
+
+        <section>
+          <h2>My Database</h2>
+          <ul>
+            <li>Get 1000 songs fearures</li>
+            <li>Run lyrics analysis</li>
+            <li>Add results to features</li>
+          </ul>
+          <img src="comp/comp_img/aid_graph/db.jpg" alt="Database" width="25%" style="float: left">
+        </section>
+
+        <section>
+          <h2>Feature Format</h2>
+          <ul>
+            <li>Spotify API/Json</li>
+          </ul>
+          <img src="images/junior_s/spotifyAPI.png" alt="Sample features" width="80%" style="float: center">
+        </section>
+
+        <section>
+          <h2>Backend</h2>
+          <ul>
+            <li>Flask</li>
+            <li>Easy, lightweight</li>
+            <li>Just the feature I need</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Music Model</h2>
+          <ul>
+            <li>Summarize user input</li>
+            <li>Get sentiment</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Tools</h2>
+          <ul>
+            <li>PyTextRank</li>
+            <ul>
+              <li>Vocabulary and sentence ranking</li>
+            </ul>
+            <li>Scikit-learn sentiment analysis</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Frontend</h2>
+          <ul>
+            <li>Flask</li>
+            <li>Minimal Viable Product (MVP)</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Evaluation</h2>
+          <ul>
+            <li>User feedback</li>
+            <ul>
+              <li>Got IRB Certification</li>
+            </ul>
+            <li>Test cases</li>
+            <ul>
+              <li>Pick songs</li>
+            </ul>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Schedule</h2>
+          <ol>
+            <li>Prototype (<b class = orange>Nov, Dec</b>)</li>
+            <li>Proposal for IRB (<b class = orange>Feb</b>)</li>
+            <li>User questionnaire (<b class = orange>Feb</b>)</li>
+            <li>Report (<b class = orange>Jan, Feb</b>)</li>
+            <li>Finalize (<b class = orange>Mar</b>)</li>
+          </ol>
+        </section>
+
+        <section>
+          <h1>Questions</h1>
+        </section>
+
+        <section>
+          <h1>The End</h1>
+        </section>
+
+      </div>
+
+      <script src="lib/js/head.min.js"></script>
+      <script src="js/reveal.min.js"></script>
+
+      <script>
+
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+          controls: true,
+          progress: true,
+          history: true,
+          center: true,
+          mouseWheel: true,
+          theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+          transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/none/none
+
+          // Parallax scrolling
+          // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+          // parallaxBackgroundSize: '2100px 900px',
+
+          // Optional libraries used to extend on reveal.js
+          dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+          ]
+        });
+
+window.addEventListener("mousedown", handleClick, false);
+window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+//
+// function handleClick(e) {
+//   e.preventDefault();
+//   if(e.button === 0) Reveal.next();
+//   if(e.button === 2) Reveal.prev();
+// }
+
+      </script>
+
+  </body>
+</html>

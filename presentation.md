@@ -35,6 +35,10 @@ bigimg: /img/ted.jpg
 
 [Lightning talk: potential tools](presentations/tools.html){:target="_blank"} &mdash; 4/3/2019
 
+### Senior Comprehensive Project
+
+[Proposal Defense: Music Recommendation System by Mapping Music and Descriptive Paragraph](presentations/proposalDf.html){:target="_blank"} &mdash; 11/12/2019
+
 ### Other
 
 [Summer school: social psychology aggression presentation](presentations/Aggression_2017_Summer.html){:target="_blank"} &mdash; 6/19/2017
