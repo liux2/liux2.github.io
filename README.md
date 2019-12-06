@@ -7,7 +7,7 @@ Here is the original [website](https://github.com/daattali/beautiful-jekyll).
 
 This site is build to present my interests and professional ability, and my growth process. Everyone is welcomed to take a look and leave messages.
 
-If you are interested to hire me, please check my resume pages and project pages. If you are interested in my stories, please feel free to hang out here a bit. If you have any questions, feel free to email me. My email is [xingbangliu@outlook.com](xingbangliu@outlook.com).
+If you are interested to hire me, please check my resume pages and project pages. If you are interested in my stories, please feel free to hang out here a bit. If you have any questions, feel free to email me. My email is <a href = "mailto: xingbangliu@outlook.com">xingbangliu@outlook.com</a>.
 
 ## My Building Record
 
