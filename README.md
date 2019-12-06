@@ -3,6 +3,15 @@ This website was original from a templete. Thanks to [Dean Attali](http://deanat
 
 Here is the original website: https://github.com/daattali/beautiful-jekyll
 
+**The easy build method can be found on [Dean Attali website](http://deanattali.com).**
+
+## My Building Record
+
+* Forked from [Dean Attali website](http://deanattali.com).
+* Made necessary changes on contents.
+* Extended headers.
+* Added resume markdown file that support online PDF viewer.
+
 ### Table of contents
 
 - [Prerequisites](#prerequisites)
@@ -12,10 +21,10 @@ Here is the original website: https://github.com/daattali/beautiful-jekyll
 ## Prerequisites
 
 - First you have to have a Github account. Here is the [portal](https://github.com/join).
-- If you wnat to write your website offline, you have to save your ssh-keygen to Github which can be found by using terminal. 
+- If you wnat to write your website offline, you have to save your ssh-keygen to Github which can be found by using terminal.
 
 ## Build your website in 3 steps
- 
+
 Here is a short gif about how it works:
 ![Installation steps](img/install-steps.gif)
 

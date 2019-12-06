@@ -12,3 +12,5 @@ bigimg: /img/robot.jpg
 ## College Research and Projects
 
 [Autumated Text Summarization for MyMeadville]({{ site.baseurl }}/Automated_text_summarization){:target="_blank"}
+
+  - Publication based on this project: [Automated Text Summarization for the Enhancement of Public Services](https://arxiv.org/abs/1910.10490)
