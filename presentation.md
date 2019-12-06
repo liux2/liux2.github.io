@@ -21,7 +21,7 @@ bigimg: /img/projector.jpg
 
 [Compiler Final Project](presentations/CompilerFinalProject.html){:target="_blank"} &mdash; 4/23/2019
 
-<hr class="large"></hr>
+<hr class="large">
 
 ### Junior Seminar
 
@@ -37,13 +37,13 @@ bigimg: /img/projector.jpg
 
 [Lightning talk: potential tools](presentations/tools.html){:target="_blank"} &mdash; 4/3/2019
 
-<hr class="large"></hr>
+<hr class="large">
 
 ### Senior Comprehensive Project
 
 [Proposal Defense: Music Recommendation System by Mapping Music and Descriptive Paragraph](presentations/proposalDf.html){:target="_blank"} &mdash; 11/12/2019
 
-<hr class="large"></hr>
+<hr class="large">
 
 ### Other
 
