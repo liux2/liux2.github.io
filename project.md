@@ -11,4 +11,4 @@ bigimg: /img/robot.jpg
 
 ## College Research and Projects
 
-[Autumated Text Summarization for MyMeadville]({{ site.baseurl }}/Automated_text_summarization)
+[Autumated Text Summarization for MyMeadville]({{ site.baseurl }}/Automated_text_summarization){:target="_blank"}
