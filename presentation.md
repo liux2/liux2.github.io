@@ -2,10 +2,10 @@
 layout: page
 title: My Presentation
 subtitle: How do I share my ideas?
-bigimg: /img/ted.jpg
+bigimg: /img/projector.jpg
 ---
 
-<a title="TED Registration" href="https://flickr.com/photos/pmo/413424395">TED Registration</a> flickr photo by <a href="https://flickr.com/people/pmo">pmo</a> shared under a <a href="https://creativecommons.org/licenses/by/2.0/">Creative Commons (BY) license</a>
+<a title="Project" href="https://flickr.com/photos/quinnanya/1444617815">Project</a> flickr photo by <a href="https://flickr.com/people/quinnanya">quinn.anya</a> shared under a <a href="https://creativecommons.org/licenses/by-sa/2.0/">Creative Commons (BY-SA) license</a>
 
 # Presentation List
 
@@ -21,6 +21,8 @@ bigimg: /img/ted.jpg
 
 [Compiler Final Project](presentations/CompilerFinalProject.html){:target="_blank"} &mdash; 4/23/2019
 
+<hr class="large"></hr>
+
 ### Junior Seminar
 
 [Lightning talk: my interests](presentations/cs_interests.html){:target="_blank"} &mdash; 1/17/2019
@@ -35,9 +37,13 @@ bigimg: /img/ted.jpg
 
 [Lightning talk: potential tools](presentations/tools.html){:target="_blank"} &mdash; 4/3/2019
 
+<hr class="large"></hr>
+
 ### Senior Comprehensive Project
 
 [Proposal Defense: Music Recommendation System by Mapping Music and Descriptive Paragraph](presentations/proposalDf.html){:target="_blank"} &mdash; 11/12/2019
+
+<hr class="large"></hr>
 
 ### Other
 
