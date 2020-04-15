@@ -43,6 +43,8 @@ bigimg: /img/projector.jpg
 
 [Proposal Defense: Music Recommendation System by Mapping Music and Descriptive Paragraph](presentations/proposalDf.html){:target="_blank"} &mdash; 11/12/2019
 
+[Thesis Defense: Music Recommendation System by Mapping Music and Descriptive Paragraph](presentations/thesisDf.html){:target="_blank"} &mdash; 4/14/2020
+
 <hr class="large">
 
 ### Other
