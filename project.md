@@ -17,4 +17,4 @@ bigimg: /img/robot.jpg
 
 [Allegheny College Computer Science Comprehensive Project]({{ site.baseurl }}/Allegheny-College-CMPSC-COMP-liux2){:target="_blank"}
 
-  - Thesis based on this project: [Music Recommendation by Mapping Music and Descriptive Paragraph](presentations/comp)
+  - Thesis based on this project: [Music Recommendation by Mapping Music and Descriptive Paragraph](presentations/comp.html)

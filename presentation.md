@@ -59,4 +59,4 @@ bigimg: /img/projector.jpg
 
 [Internship: self-introduction](presentations/intern_selfintro.html){:target="_blank"} &mdash; 6/6/2019
 
-[32nd International Artificial Intelligence Society Conference: proceedings poster session](presentations/32ndAIConf){:target="_blank"} &mdash; 5/x/2019
+[32nd International Artificial Intelligence Society Conference: proceedings poster session](presentations/32ndAIConf.html){:target="_blank"} &mdash; 5/x/2019
