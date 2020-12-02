@@ -14,3 +14,7 @@ bigimg: /img/robot.jpg
 [Autumated Text Summarization for MyMeadville]({{ site.baseurl }}/Automated_text_summarization){:target="_blank"}
 
   - Publication based on this project: [Automated Text Summarization for the Enhancement of Public Services](https://arxiv.org/abs/1910.10490)
+
+[Allegheny College Computer Science Comprehensive Project]({{ site.baseurl }}/Allegheny-College-CMPSC-COMP-liux2){:target="_blank"}
+
+  - Thesis based on this project: [Music Recommendation by Mapping Music and Descriptive Paragraph](presentations/comp)

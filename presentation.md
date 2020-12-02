@@ -23,7 +23,7 @@ bigimg: /img/projector.jpg
 
 <hr class="large">
 
-### Junior Seminar
+#### Junior Seminar
 
 [Lightning talk: my interests](presentations/cs_interests.html){:target="_blank"} &mdash; 1/17/2019
 
@@ -39,7 +39,7 @@ bigimg: /img/projector.jpg
 
 <hr class="large">
 
-### Senior Comprehensive Project
+#### Senior Comprehensive Project
 
 [Proposal Defense: Music Recommendation System by Mapping Music and Descriptive Paragraph](presentations/proposalDf.html){:target="_blank"} &mdash; 11/12/2019
 
@@ -47,14 +47,16 @@ bigimg: /img/projector.jpg
 
 <hr class="large">
 
-### Other
+### Others
 
 [Summer school: social psychology aggression presentation](presentations/Aggression_2017_Summer.html){:target="_blank"} &mdash; 6/19/2017
 
 [Summer school: social psychology prejudice presentation](presentations/Prejudice_2017_Summer.html){:target="_blank"} &mdash; 6/25/2017
 
-[Teaching demo](presentations/edu_teaching_demo.html){:target="_blank"} &mdash; 11/2/2018
+[Introduction to Education: teaching demo](presentations/edu_teaching_demo.html){:target="_blank"} &mdash; 11/2/2018
 
-[Deeper Dive 4](presentations/edu_cross_compare.html){:target="_blank"} &mdash; 12/7/2018
+[Introduction to Education: deeper Dive 4](presentations/edu_cross_compare.html){:target="_blank"} &mdash; 12/7/2018
 
-[Internship self-introduction](presentations/intern_selfintro.html){:target="_blank"} &mdash; 6/6/2019
+[Internship: self-introduction](presentations/intern_selfintro.html){:target="_blank"} &mdash; 6/6/2019
+
+[32nd International Artificial Intelligence Society Conference: proceedings poster session](presentations/32ndAIConf){:target="_blank"} &mdash; 5/x/2019
