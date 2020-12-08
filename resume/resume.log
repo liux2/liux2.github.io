@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.11.11)  11 NOV 2020 23:49
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.11.11)  8 DEC 2020 22:34
  restricted system commands enabled.
 **resume.tex
 (./resume.tex
@@ -1183,11 +1183,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--89
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
  (./resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 130.
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'resume.run.xml'.
@@ -1201,17 +1201,17 @@ Here is how much of LuaTeX's memory you used:
  564 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 13 attribute, 63 glue_spec
 , 10 attribute_list, 2 write nodes
-   avail lists: 1:2,2:1696,3:206,4:260,5:356,6:60,7:3508,8:8,9:244,10:5,11:259
+   avail lists: 1:2,2:1755,3:214,4:270,5:364,6:63,7:3638,8:9,9:251,10:5,11:274
  52183 multiletter control sequences out of 65536+600000
- 96 fonts using 20422595 bytes
+ 96 fonts using 20422739 bytes
  74i,11n,109p,898b,741s stack positions out of 5000i,500n,10000p,200000b,100000s
 <./texgyreheros-italic.otf><./texgyreheros-bold.otf></usr/share/texlive/texmf-di
 st/fonts/opentype/public/fontawesome/FontAwesome.otf><./texgyreheros-regular.otf
 ><./Lato-Light.ttf>
-Output written on resume.pdf (1 page, 33622 bytes).
+Output written on resume.pdf (1 page, 33404 bytes).
 
-PDF statistics: 57 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+PDF statistics: 58 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
