@@ -28,8 +28,8 @@ navbar-links:
   Blog: "blog"
   Project: "project"
   Personal Info:
-    - Resume: "resume/resume.html"
-    - CV: "resume/cv.html"
+    - Resume: "resume"
+    - CV: "cv"
   Talk: "presentation"
   #Resources:
   #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
