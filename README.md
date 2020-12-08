@@ -20,6 +20,8 @@ If you are interested to hire me, please check my resume pages and project pages
 * Added presentation slides as time went by.
 * Canceled old blogs, waiting for new blogs.
 * Added more styles to the pages.
+* Added CV.
+* Added projects as time went by.
 
 ## Road Map
 
